@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
       <div className="text-center space-y-6">
-        <h1 className="text-4xl font-bold text-gray-900">Harpa IA</h1>
+        <h1 className="text-4xl font-bold text-gray-900">IA Jur</h1>
         <p className="text-lg text-gray-600 max-w-md">
           Seu assistente jurídico inteligente. Tire suas dúvidas legais com a ajuda da inteligência artificial.
         </p>
@@ -26,7 +26,7 @@ export default function Home() {
       <DraggableModal
         isOpen={isChatOpen}
         onClose={() => setIsChatOpen(false)}
-        title="Harpa IA - Assistente Jurídico"
+        title="IA - Assistente Jurídico"
       >
         <ChatWindow />
       </DraggableModal>

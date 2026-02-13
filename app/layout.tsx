@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HarpaIA - Assistente Jurídico Inteligente",
+  title: "AI Jur - Assistente Jurídico Inteligente",
   description: "Seu assistente jurídico inteligente",
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-Br">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
